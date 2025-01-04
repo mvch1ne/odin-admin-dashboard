@@ -3,8 +3,8 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    /* font-family: "Playwrite FR Moderne", serif; */
-    font-family: "Roboto", serif;
+    font-family: "Playwrite FR Moderne", serif;
+    /* font-family: "Roboto", serif; */
 }
 
 
@@ -56,11 +56,12 @@ aside.sidebar{
 
 
 header.header{
-    height: 125px;
+    height: 145px;
     width: calc(100vw - 200px);
     display: flex;
     box-shadow: 25px 20px black;
     padding: 20px 20px 10px 20px;
+    flex-direction: column;
 }
 
 .header-top{
@@ -87,9 +88,56 @@ header.header{
     margin-right: 40px;
 }
 
+
 .main-profile-icon{
     height: 1.75rem;
     border-radius: 50%;
+}
+
+.greeting-img{
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.header-bottom{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-bottom .greeting-section{
+     display: flex;
+     align-items: center;
+     gap: 7.5px;
+     font-weight: bold;
+     margin-top: 10px;
+}
+
+.button-section{
+    margin-right: 120px;
+    display: flex;
+    gap: 25px;
+}
+
+.button-section div{
+    background-color: #1992D4;
+    color: white;
+    padding: 10px;
+    height: 45px;
+    border-radius: 15px;
+    font-size: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.greeting{
+    font-size: 0.75rem;
+}
+
+.name-tag{
+    font-size: 1rem;
 }
 
 
@@ -98,6 +146,6 @@ main.main{
 }
 
 section.section{
-    height: calc(100vh - 125px);
+    height: calc(100vh - 145px);
     background-color: #E2E8F0;
 }
