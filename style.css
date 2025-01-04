@@ -59,7 +59,7 @@ header.header{
     height: 145px;
     width: calc(100vw - 200px);
     display: flex;
-    box-shadow: 25px 20px black;
+    box-shadow: 5px 5px black;
     padding: 20px 20px 10px 20px;
     flex-direction: column;
 }
@@ -148,4 +148,94 @@ main.main{
 section.section{
     height: calc(100vh - 145px);
     background-color: #E2E8F0;
+    display: flex;
 }
+
+.projects-section{
+    background-color: lightpink;
+    width: 80%;
+    height: 100%;
+
+    padding: 5px 15px;
+}
+
+.section-title{
+    font-size: 0.9rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.announcements-and-trending-section{
+    width: 20%;
+    height: 100%;
+    padding: 5px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.announcements{
+    height: 55%;
+    margin-bottom: 10px;
+}
+
+.announcements-container{
+    background-color: white;
+    padding: 7.5px;
+    border-radius: 8px;
+}
+
+.announcements-container hr{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.announce{
+    display: flex;
+    flex-direction: column;
+}
+
+.announce-heading{
+    font-size: 0.70rem;
+    font-weight: bold;
+}
+
+.announce-content{
+    font-size: 0.65rem;
+}
+
+.trending{
+    height: 45%;
+}
+
+.trending-container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    overflow: auto;
+}
+
+.trend{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.trending-img{
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.tag{
+    font-size: 0.65rem;
+}
+
+.name{
+    font-size: 0.65rem;
+    color: gray;
+}
+
