@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+FR+Moderne:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 *{
     box-sizing: border-box;
     margin: 0;
+    /* font-family: "Playwrite FR Moderne", serif; */
+    font-family: "Roboto", serif;
 }
 
 
@@ -12,9 +15,43 @@ body.container{
 
 
 aside.sidebar{
-    background-color: lightblue;
+    background-color: #1992D4;
+    color: white;
     height: 100vh;
     width: 200px;
+    padding: 5px 20px;
+}
+
+.icon-and-title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 1.125rem;
+}
+
+.first-menu,
+.second-menu
+{
+    padding-left: 10px;
+    margin-top: 25px;
+    margin-bottom: 65px;
+}
+
+
+.menu-item{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    gap: 7.5px;
+    margin-bottom: 12.5px;
+}
+
+.menu-item-icon{
+    height: 1.75rem;
 }
 
 
