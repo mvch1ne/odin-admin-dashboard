@@ -56,18 +56,48 @@ aside.sidebar{
 
 
 header.header{
-    background-color: lightpink;
     height: 125px;
     width: calc(100vw - 200px);
+    display: flex;
+    box-shadow: 25px 20px black;
+    padding: 20px 20px 10px 20px;
+}
+
+.header-top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-section{
+    display: flex;
+    gap: 10px;
+}
+
+.search-bar{
+    background-color: #E2E8F0;
+    width: 500px;
+    height: 1.5rem;
+    border-radius: 15px;
+}
+
+.right-section{
+    display: flex;
+    gap: 20px;
+    margin-right: 40px;
+}
+
+.main-profile-icon{
+    height: 1.75rem;
+    border-radius: 50%;
 }
 
 
 main.main{
-    background-color: lightgreen;
 
 }
 
 section.section{
-    background-color: bisque;
     height: calc(100vh - 125px);
+    background-color: #E2E8F0;
 }
